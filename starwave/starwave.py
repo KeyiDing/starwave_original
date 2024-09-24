@@ -23,8 +23,9 @@ import torch
 import sbi
 from sbi import utils as utils
 from sbi.utils import user_input_checks
-from sbi.inference import SNPE, prepare_for_sbi, simulate_for_sbi
+from sbi.inference import SNPE, simulate_for_sbi
 from sbi.utils.get_nn_models import posterior_nn
+from sbi.utils.user_input_checks import prepare_for_sbi
 
 import extinction
 
